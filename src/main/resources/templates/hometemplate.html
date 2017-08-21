@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>hometemplate</title>
+</head>
+<body>
+<h2>Hello World!</h2>  <!-- static text displayed in content of the starting<h2> and ending </h2> tags -->
+<p th:text="#{static.message}"></p>
+<!-- #{static.message} gets the value of the static.message variable in resources>>messages.properties file and th:text displays its assigned value in content
+of the starting <p> and ending </p> tags -->
+</body>
+</html>
